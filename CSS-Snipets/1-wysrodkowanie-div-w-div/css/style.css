@@ -1,0 +1,68 @@
+/* Pierwszy kwadrat */
+.outter {
+	width: 200px;
+	height: 200px;
+	background-color: deepskyblue;
+	display: flex;
+	align-items: center;
+}
+
+.inner {
+	width: 100px;
+	height: 100px;
+	background-color: lightpink;
+	margin-left: 50px;
+}
+
+/* Drugi kwadrat */
+.zew {
+	width: 200px;
+	height: 200px;
+	background-color: orange;
+	display: flex;
+  	justify-content:space-around;
+}
+
+.wew {
+	width: 100px;
+	height: 100px;
+	background-color: greenyellow;
+  	margin: auto;
+}
+
+/* Trzeci kwadrat */
+.out {
+	width: 200px;
+	height: 200px;
+	background-color: darkred;
+	position: relative;
+}
+
+.in {
+	width: 50%;
+	height: 50%;
+	background-color: yellow;
+	position: absolute;
+	left: 50%;
+	top:50%;
+	transform:translate(-50%, -50%);
+}
+
+/* Czwarty kwadrat */
+.zew2 {
+	width: 200px;
+	height: 200px;
+	background-color: blueviolet;
+	position: relative;
+}
+
+.wew2 {
+	width: 50%;
+	height: 50%;
+	background-color: lightyellow;
+	position: absolute;
+	left:0;
+	right:0;
+	margin:auto;
+	transform: translateY(50%);
+}

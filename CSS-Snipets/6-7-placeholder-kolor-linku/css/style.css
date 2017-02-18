@@ -1,0 +1,44 @@
+* {	
+	font-family: Lato;
+    background-color: #115;
+    font-size: 1.67em;
+}
+
+body {
+    font-size: 16px;
+	color: #fff;
+    margin: 50px 100px 0 100px ;
+}
+
+/* ---------------------------- */ 
+
+
+a {color: yellowgreen}
+
+a[href$=".docx"] {color:goldenrod}
+a[href$=".doc"] {color:cyan}
+    
+a[href$=".docx"]:after,
+a[href$=".doc"]:after {
+        font-family: FontAwesome;
+        content: "\f019" ;
+        color: white;}
+        
+/* ---------------------------- */ 
+
+::-moz-placeholder {
+    opacity: 1;
+    color: cyan;
+}
+
+input::-webkit-input-placeholder{
+    color: cyan;
+}
+
+textarea:-moz-placeholder {
+     color: cyan;
+}
+
+textarea::-webkit-input-placeholder {
+    color:cyan;
+}

@@ -1,0 +1,23 @@
+/*English Languages quotes START*/
+
+q[lang*="en"]::before, blockquote[lang*="en"]::before {
+	content: "\*";
+}
+
+q[lang*="en"]::after, blockquote[lang*="en"]::after {
+	content: "\*";
+}
+
+/*English Languages quotes STOP*/
+
+/*Other Languages quotes START*/
+
+q:not([lang*="en"])::before, blockquote:not([lang*="en"])::before {
+	content: "\"";
+}
+
+q:not([lang*="en"])::after, blockquote:not([lang*="en"])::after {
+	content: "\"";
+}
+
+/*Other Languages quotes STOP*/

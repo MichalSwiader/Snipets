@@ -1,0 +1,29 @@
+div {
+	height: 100px;
+	width: 100%;
+	margin-bottom: 10px;
+}
+
+#rainbow {
+	background: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
+}
+
+#diagonal {
+	background: linear-gradient(to bottom right, red, yellow, green);
+}
+
+#angle {
+	background: linear-gradient(-200deg, red, yellow, green);
+}
+
+#repeating {
+	background: repeating-linear-gradient(to bottom, red, yellow 20%, green 30%);
+}
+
+#radial {
+	background: radial-gradient(red, yellow, green);
+}
+
+#circle {
+	background: radial-gradient(circle, red, yellow, green);
+}
